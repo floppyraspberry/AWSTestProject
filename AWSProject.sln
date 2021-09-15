@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWSProject", "AWSProject.csproj", "{E4F34E60-092A-4EEC-B53C-F8641A3E4669}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Helpers", "Helpers\Helpers.csproj", "{E6658CD3-FC4E-4192-87D3-5256E62A884E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{15D83B97-0CEE-412E-998C-DA919CDD9714}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.gitignore = .gitignore
+		buildspec.yml = buildspec.yml
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4F34E60-092A-4EEC-B53C-F8641A3E4669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4F34E60-092A-4EEC-B53C-F8641A3E4669}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4F34E60-092A-4EEC-B53C-F8641A3E4669}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4F34E60-092A-4EEC-B53C-F8641A3E4669}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6658CD3-FC4E-4192-87D3-5256E62A884E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6658CD3-FC4E-4192-87D3-5256E62A884E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6658CD3-FC4E-4192-87D3-5256E62A884E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6658CD3-FC4E-4192-87D3-5256E62A884E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B63375F-C616-460A-9D87-63E566958A2A}
+	EndGlobalSection
+EndGlobal
